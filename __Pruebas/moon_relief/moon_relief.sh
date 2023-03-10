@@ -18,3 +18,6 @@ gmt begin moon_relief png
 	gmt grdimage @moon_relief_10m -I -Cmoon_relief.cpt -Bf
 	gmt colorbar
 gmt end
+
+
+gmt colorbar -Cmoon_relief.cpt 
